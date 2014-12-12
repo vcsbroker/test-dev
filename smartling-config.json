@@ -5,8 +5,8 @@
             "application" : "zh_Hans"
         },
         {
-            "smartling"   : "zh-SG",
-            "application" : "zh_SG"
+            "smartling"   : "nl-NL",
+            "application" : "nl_NL"
         }
     ],
     "resourceSets": [
