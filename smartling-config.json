@@ -13,7 +13,7 @@
         {
             "pathRegex"                 : "/messages/(?<path>.*)\\.properties",
             "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
-            "type"                      : "javaProperties",
+            "type"                      : "javaProperties"
         }
     ]
 }
