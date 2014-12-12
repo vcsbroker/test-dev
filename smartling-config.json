@@ -1,0 +1,19 @@
+{
+    "locales" : [
+        {
+            "smartling"   : "zh-CN",
+            "application" : "zh_Hans"
+        },
+        {
+            "smartling"   : "zh-SG",
+            "application" : "zh_SG"
+        }
+    ],
+    "resourceSets": [
+        {
+            "pathRegex"                 : "/messages/(?<path>.*)\\.properties",
+            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
+            "type"                      : "javaProperties",
+        }
+    ]
+}
