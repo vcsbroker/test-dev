@@ -1,0 +1,91 @@
+<footer {{ if footer_display == "minimal" }}style="display: none;"{{ endif }}>
+  <div id="footer-nav" class="bkgd-blue">
+    <div class="container">
+      <div id="footer-nav-top" class="row-block">
+        <ul>
+          <li><a class="blog" href="https://blog.site.com/de-DE" target="_blank">site Blog</a></li>
+          <li><a class="twitter" href="https://twitter.com/site" target="_blank">Twitter</a></li>
+          <li><a class="facebook" href="https://www.facebook.com/site" target="_blank">Facebook</a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/company/site" target="_blank">LinkedIn</a></li>
+          <li><a class="youtube" href="https://www.youtube.com/siteDotCom" target="_blank">YouTube</a></li>
+        </ul>
+      </div>
+      <div id="footer-nav-bottom" class="row-block" {{ if sem == "true" }}style="display: none;"{{ endif }}>
+        <ul>
+          <li class="footer-block">
+            <a href="/en-DE/product" {{ if is_current || is_parent }} class="on" {{ endif }}>Products</a>
+            <ul>
+              {{ nav from="/en-DE/product" max_depth="1" is_hidden:isnt_set="true" exclude="en-DE/product/retargeting-mobile-apps" }}
+              <li>
+                <a href="{{ url }}" {{ if is_current || is_parent }} class="on" {{ endif }}>{{ title }}</a>
+              </li>
+              {{ /nav }}
+            </ul>
+          </li>
+          <li class="footer-block">
+            <a href="/en-DE/customers" {{ if is_current || is_parent }} class="on" {{ endif }}>Customers</a>
+            <ul>
+              {{ nav from="/en-DE/customers" max_depth="1" is_hidden:isnt_set="true" }}
+              <li>
+                <a href="{{ url }}" {{ if is_current || is_parent }} class="on" {{ endif }}>{{ title }}</a>
+              </li>
+              {{ /nav }}
+            </ul>
+          </li>
+          <li class="footer-block">
+            <a href="/en-DE/about" {{ if is_current || is_parent }} class="on" {{ endif }}> Etwa </a>
+            <ul>
+              <li><a href="/en-DE/about/careers" {{ if is_current }} class="current" {{ endif }}> Karriere </a></li>
+              <li><a href="/en-DE/about/team" {{ if is_current }} class="current" {{ endif }}>Team</a></li>
+              <li><a href="http://tech.site.com" target="_blank">site Engineering</a></li>
+              <li><a href="/en-DE/about/site-gives-back" {{ if is_current }} class="current" {{ endif }}>site Gives Back</a></li>
+              <li><a href="/en-DE/about/press" {{ if is_current }} class="current" {{ endif }}>Press</a></li>
+              <li><a href="/en-DE/about/awards" {{ if is_current }} class="current" {{ endif }}>Awards</a></li>
+              <li><a href="/en-DE/about/contact" {{ if is_current }} class="current" {{ endif }}>Contact</a></li>
+            </ul>
+          </li>
+          <li class="footer-block">
+            <a href="/en-DE/getting-started" {{ if is_current || is_parent }} class="on" {{ endif }}>Getting Started</a>
+            <ul>
+              {{ nav from="/en-DE/getting-started" max_depth="1" is_hidden:isnt_set="true" }}
+              <li>
+                <a href="{{ url }}" {{ if is_current || is_parent }} class="on" {{ endif }}>{{ title }}</a>
+              </li>
+              {{ /nav }}
+              <li>
+                <a href="https://blog.site.com/de-DE" target="_blank">Blog</a>
+              </li>
+              <li>
+                <a href="http://help.site.com/hc/de" target="_blank">Help Center</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="footer-sub" class="container">
+    <ul>
+      <li class="footer-sub-logo iab"><a href="http://www.iab.net/?source=site" target="_blank">iab Member</a></li>
+      <li class="footer-sub-logo nai"><a href="http://www.networkadvertising.org/" target="_blank">NAI Member</a></li>
+      <li>
+        <p>Copyright © 2016 site.com. All rights reserved.</p>
+        <ul>
+          <li><a href="/en-DE/about/terms">Terms of Service</a></li>
+          <li><a href="/en-DE/about/privacy">Privacy Notice</a></li>
+          <li><a href="/en-DE/about/infringement-policy">Infringement Policy</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</footer>
+{{ if footer_display == "minimal" }}
+<div class="footnav">
+<ul class="menu-footer">
+  <li><a href="/en-DE/about/terms" title="">Terms of Service</a></li>
+  <li><a href="/en-DE/about/privacy" title="">Privacy Policy</a></li>
+</ul>
+</div>
+
+<p style="color: #d7dbdd; font-size: 12px; text-align: center;">Copyright © 2016 site.com. All rights reserved.</p>
+{{ endif }}
