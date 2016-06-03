@@ -1,0 +1,24 @@
+{
+    // en-NL will be translated only to 2 languages: de-DE and nl-NL
+    "locales": [
+         {
+             "smartling" : "nl-NL",
+             "application" : "nl-NL"
+         },
+         {
+             "smartling" : "ru-RU",
+             "application" : "ru-RU"
+         }
+     ],
+
+     "resourceSets": [
+         {
+            "type"      : "html",
+            // Select all files under site/themes folder and also have en-NL folder in the path
+            "pathRegex" : "site\\/themes\\/(?<subFolders>.*)\\/en-NL\\/(?<filePath>.*)\\.html",
+            "translationPathExpression" : "/site/themes/${subFolders}/${locale}/${filePath}.${originalFile.extension}",
+            "translationCommitMessage"  : "Translated ${originalFile.fullName} to ${locale}",
+            "smartlingDirectives"       : ["smartling.placeholder_format_custom = \\{\\{.+\\}\\}"]
+         }
+     ]
+}

@@ -1,0 +1,24 @@
+{
+    // en-JP will be translated only to 2 languages: zh-CN and es-ES
+    "locales": [
+         {
+             "smartling" : "zh-CN",
+             "application" : "zh-CN"
+         },
+         {
+             "smartling" : "es",
+             "application" : "es-ES"
+         }
+     ],
+
+     "resourceSets": [
+         {
+            "type"      : "html",
+            // Select all files under site/themes folder and also have en-JP folder in the path
+            "pathRegex" : "site\\/themes\\/(?<subFolders>.*)\\/en-JP\\/(?<filePath>.*)\\.html",
+            "translationPathExpression" : "/site/themes/${subFolders}/${locale}/${filePath}.${originalFile.extension}",
+            "translationCommitMessage"  : "Translated ${originalFile.fullName} to ${locale}",
+            "smartlingDirectives"       : ["smartling.placeholder_format_custom = \\{\\{.+\\}\\}"]
+         }
+     ]
+}
