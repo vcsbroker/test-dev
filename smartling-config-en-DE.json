@@ -18,7 +18,7 @@
             "pathRegex" : "site\\/themes\\/(?<subFolders>.*)\\/en-DE\\/(?<filePath>.*)\\.html",
             "translationPathExpression" : "/site/themes/${subFolders}/${locale}/${filePath}.${originalFile.extension}",
             "translationCommitMessage"  : "Translated ${originalFile.fullName} to ${locale}",
-            "smartlingDirectives"       : ["smartling.placeholder_format_custom = \\{\\{.+\\}\\}"]
+            "smartlingDirectives"       : ["smartling.placeholder_format_custom = \\{\\{.+?\\}\\}"]
          }
      ]
 }
