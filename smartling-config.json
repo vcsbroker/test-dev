@@ -11,7 +11,6 @@
     ],
     "resourceSets": [
         {
-            // Dummy changes to trigger full rescan
             "pathRegex"                 : "/messages/(?<path>.*)\\.properties",
             "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
             "type"                      : "javaProperties"
