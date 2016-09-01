@@ -11,7 +11,7 @@
     ],
     "resourceSets": [
         {
-            "pathRegex"                 : "messages/(?<path>.*)\\.properties",
+            "pathRegex"                 : "messages/.*\\.properties",
             "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
             "type"                      : "javaProperties"
         }
