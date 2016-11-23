@@ -11,9 +11,10 @@
     ],
     "resourceSets": [
         {
-            "pathRegex"                 : "messages/(?<path>.*)\\.properties",
-            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
-            "type"                      : "javaProperties"
+            "pathRegex"                 : ".*\\.properties",
+            "translationPathExpression" : "/translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+            "type"                      : "javaProperties",
+            "translationCommitMessage"  : "fullName = ${originalFile.fullName}, basename = ${originalFile.baseName}, path = ${originalFile.path}, name = ${originalFile.name}, extension = ${originalFile.extension}, locale = ${locale}"
         }
     ]
 }
