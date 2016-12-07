@@ -16,7 +16,8 @@
             "type"                      : "javaProperties"
         },
 		{
-            "pathRegex"                 : "messages/.*\\.po",
+            "authorizeContent"          : "false",
+			"pathRegex"                 : "messages/.*\\.po",
             "translationPathExpression" : "/translated/${originalFile.baseName}.${locale}.${originalFile.extension}",
             "type"                      : "gettext"
         }
