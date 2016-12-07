@@ -14,6 +14,11 @@
             "pathRegex"                 : "messages/(?<path>.*)\\.properties",
             "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
             "type"                      : "javaProperties"
+        },
+		{
+            "pathRegex"                 : "messages/.*\\.po",
+            "translationPathExpression" : "/translated/${originalFile.baseName}.${locale}.${originalFile.extension}",
+            "type"                      : "gettext"
         }
     ]
 }
