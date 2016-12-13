@@ -11,8 +11,9 @@
     ],
     "resourceSets": [
         {
-            "pathRegex"                 : "messages/(?<path>.*)\\.properties",
-            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
+            "pathRegex"                 : "[^\\/]+\\/[^\\/]+\\.properties",
+            // Variable ${originalFile.path} already has trailing slash, see https://docs.smartling.com/pages/Repository-Connector/Translation-Settings/
+            "translationPathExpression" : "${originalFile.path}${locale}/${originalFile.name}",
             "type"                      : "javaProperties"
         }
     ]

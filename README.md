@@ -1,4 +1,4 @@
 test-dev
 ========
 
-repo-connector dev testing repository
+Translation rule: Original files are placed in `messages/`. Translated files should be committed into subfolder with locale name
