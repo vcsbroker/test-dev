@@ -20,19 +20,19 @@ msgstr ""
 
 #: apps/company_name/auth/views.py:68
 msgid "Continuing"
-msgstr "Continuing"
+msgstr "voortzetting!"
 
 #: apps/company_name/bookmarks/json_renderer.py:73
 msgid "Event: {title}"
-msgstr "Event: {title}"
+msgstr "Evenement: {title}"
 
 #: apps/company_name/bookmarks/json_renderer.py:82
 msgid "Poll: {question}"
-msgstr "Poll: {question}"
+msgstr "poll: {question}"
 
 #: apps/company_name/bookmarks/json_renderer.py:88
 msgid "Urgent alert"
-msgstr "Urgent alert"
+msgstr "dringende waarschuwing"
 
 #: apps/company_name/city/constants.py:77
 msgid "None"
@@ -157,10 +157,10 @@ msgid ""
 "You can learn more about forwarding crime and safety messages to us in this help article ({article})\n"
 "\n"
 "As always, we cannot view any content that you do not choose to directly forward to the {top_level_agency_name}. We cannot see the posts and replies that are made in your neighborhood."
-msgstr "We want to announce that you may now choose to forward important Crime & Safety messages with the {top_level_agency_name} via company_name. We want to be"
-" very clear that this is NOT a tool to report emergencies or file an official crime report. It's very important that you call 9-1-1 in the case of an emergency.\n\nYou"
-" can learn more about forwarding crime and safety messages to us in this help article ({article})\n\nAs always, we cannot view any content that you do not"
-" choose to directly forward to the {top_level_agency_name}. We cannot see the posts and replies that are made in your neighborhood."
+msgstr "We want to announce that you may now choose to forward important Crime & Safety messages with the {top_level_agency_name} via company_name. We want to"
+" be very clear that this is NOT a tool to report emergencies or file an official crime report. It's very important that you call 9-1-1 in the case of an"
+" emergency.\n\nYou can learn more about forwarding crime and safety messages to us in this help article ({article})\n\nAs always, we cannot view any content"
+" that you do not choose to directly forward to the {top_level_agency_name}. We cannot see the posts and replies that are made in your neighborhood."
 
 #: apps/company_name/common/contacts/contact_parser_utils.py:23
 msgid "Sorry, we were unable to process your file."
@@ -407,11 +407,11 @@ msgstr "No names match the input {name}"
 
 #: apps/company_name/common/forms.py:778
 msgid "Invalid ID.  Please try again.  "
-msgstr "Invalid ID.  Please try again. "
+msgstr "Invalid ID.  Please try again.  "
 
 #: apps/company_name/common/forms.py:780
 msgid "ID - username mismatch.  Please try again.  "
-msgstr "ID - username mismatch.  Please try again. "
+msgstr "ID - username mismatch.  Please try again.  "
 
 #: apps/company_name/common/forms.py:842 apps/company_name/common/forms.py:945
 msgid "Bad facebook photo path"
@@ -764,8 +764,8 @@ msgstr "This field is required."
 
 #: apps/company_name/common/neighbor_services/base_view.py:121
 msgid "Hi it's {first_name}! I need recommendations to start getting jobs on company_name Now - a new service for finding local jobs. Do you have a minute to help? {url}"
-msgstr "Hi it's {first_name}! I need recommendations to start getting jobs on company_name Now - a new service for finding local jobs. Do you have a minute to help?"
-" {url}"
+msgstr "Hi it's {first_name}! I need recommendations to start getting jobs on company_name Now - a new service for finding local jobs. Do you have a minute to"
+" help? {url}"
 
 #: apps/company_name/common/neighbor_services/utils.py:663
 msgid "You've been invited to join company_name Now, an easier way to find great jobs in your neighborhood. Sign up today and start earning: {invite_link}"
@@ -11236,8 +11236,9 @@ msgid "To help you get more neighbors to join {hood_name}, I would like to offer
 msgid_plural "To help you get more neighbors to join {hood_name}, I would like to offer to send postcard invitations to your closest {res_count} neighbors. Postcard invitations are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
 msgstr[0] "To help you get more neighbors to join {hood_name}, I would like to offer to send postcard invitations to your closest {res_count} neighbor. Postcard invitations"
 " are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
-msgstr[1] "To help you get more neighbors to join {hood_name}, I would like to offer to send postcard invitations to your closest {res_count} neighbors. Postcard invitations"
-" are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
+msgstr[1] "To help you get more neighbors to join {hood_name}, I would like to offer to send postcard invitations to your closest {res_count} neighbors. Postcard"
+" invitations are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them"
+" for free."
 
 #: templates/company_name/emails/account/founding_members/fm_postcard_blast_converted.txt:15
 msgid "To help you get more neighbors to join {hood_name}, I would like to offer to send postcard invitations to {res_count} neighbor. Postcard invitations are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
@@ -11298,8 +11299,8 @@ msgstr[1] "To help you get more neighbors to join {hood_name}, I would still lik
 #: templates/company_name/emails/account/founding_members/fm_postcard_blast_reminder_converted.html:22
 msgid "To help you get more neighbors to join {hood_name}, I would still like to offer to send postcard invitations to {count} neighbor. Postcard invitations are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
 msgid_plural "To help you get more neighbors to join {hood_name}, I would still like to offer to send postcard invitations to all {count} neighbors. Postcard invitations are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
-msgstr[0] "To help you get more neighbors to join {hood_name}, I would still like to offer to send postcard invitations to {count} neighbor. Postcard invitations are"
-" an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
+msgstr[0] "To help you get more neighbors to join {hood_name}, I would still like to offer to send postcard invitations to {count} neighbor. Postcard invitations"
+" are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
 msgstr[1] "To help you get more neighbors to join {hood_name}, I would still like to offer to send postcard invitations to all {count} neighbors. Postcard invitations"
 " are an easy way to tell your neighbors about {hood_name}. You can include your own message on the invitations, and I'll print and mail them for free."
 
@@ -11385,8 +11386,8 @@ msgstr "Complete your address change"
 #: templates/company_name/emails/account/member_move_email_converted.html:53
 #: templates/company_name/emails/account/member_move_email_converted.txt:21
 msgid "P.S. Now that you’ve moved, you’ll no longer be able to sign in to company_name {old_hood_short_name}. Your former neighbors will no longer see you in the directory or neighborhood map, and they will not see your new address or any other profile information. However, your old posts and comments in company_name {old_hood_short_name} will remain visible to your old neighbors."
-msgstr "P.S. Now that you’ve moved, you’ll no longer be able to sign in to company_name {old_hood_short_name}. Your former neighbors will no longer see you in the"
-" directory or neighborhood map, and they will not see your new address or any other profile information. However, your old posts and comments in company_name"
+msgstr "P.S. Now that you’ve moved, you’ll no longer be able to sign in to company_name {old_hood_short_name}. Your former neighbors will no longer see you in"
+" the directory or neighborhood map, and they will not see your new address or any other profile information. However, your old posts and comments in company_name"
 " {old_hood_short_name} will remain visible to your old neighbors."
 
 #: templates/company_name/emails/account/member_move_email_converted.html:55
@@ -11587,7 +11588,8 @@ msgstr "We’ve located your new address at {address}, but it’s not within an 
 
 #: templates/company_name/emails/account/new_hood_member_move_email_converted.txt:12
 msgid "To use company_name with your new neighbors, you can start your company_name neighborhood or get notified when a neighbor starts your new company_name neighborhood."
-msgstr "To use company_name with your new neighbors, you can start your company_name neighborhood or get notified when a neighbor starts your new company_name neighborhood."
+msgstr "To use company_name with your new neighbors, you can start your company_name neighborhood or get notified when a neighbor starts your new company_name"
+" neighborhood."
 
 #: templates/company_name/emails/account/new_hood_member_move_email_converted.txt:16
 msgid "Click on the link below to bring company_name to your new neighborhood!"
@@ -11865,8 +11867,8 @@ msgstr "Notification: {deactivatee} has recently deactivated their company_name 
 
 #: templates/company_name/emails/account/notify_lead_member_move_converted.html:16
 msgid "Given that you are a company_name Lead, we wanted to let you know that <b>{moved_name}</b> of {old_address_street_number} {old_address_route} recently moved and is no longer a member of {hood_name}."
-msgstr "Given that you are a company_name Lead, we wanted to let you know that <b>{moved_name}</b> of {old_address_street_number} {old_address_route} recently moved"
-" and is no longer a member of {hood_name}."
+msgstr "Given that you are a company_name Lead, we wanted to let you know that <b>{moved_name}</b> of {old_address_street_number} {old_address_route} recently"
+" moved and is no longer a member of {hood_name}."
 
 #: templates/company_name/emails/account/notify_lead_member_move_converted.html:18
 msgid "Given that you are a company_name Lead, we wanted to let you know that <b>{moved_name}</b> from {old_address_route} recently moved and is no longer a member of {hood_name}."
@@ -12386,8 +12388,8 @@ msgstr "Your company_name account"
 #: templates/company_name/emails/account/rso/rso_member_unflagged_converted.html:13
 #: templates/company_name/emails/account/rso/rso_member_unflagged_converted.txt:4
 msgid "Previously, we sent you an email to let you know that your address was listed as the address of a registered sex offender on your state's sex offender registry, and that as a precaution, your account was suspended."
-msgstr "Previously, we sent you an email to let you know that your address was listed as the address of a registered sex offender on your state's sex offender registry,"
-" and that as a precaution, your account was suspended."
+msgstr "Previously, we sent you an email to let you know that your address was listed as the address of a registered sex offender on your state's sex offender"
+" registry, and that as a precaution, your account was suspended."
 
 #: templates/company_name/emails/account/rso/rso_member_unflagged_converted.html:18
 #: templates/company_name/emails/account/rso/rso_member_unflagged_converted.txt:8
@@ -12521,8 +12523,8 @@ msgstr "Thank you for joining {hood_name}, the private network for {hood_short_n
 #: templates/company_name/emails/account/verification/geomonitoring_dropoff_postcard_trigger.html:58
 #: templates/company_name/emails/account/verification/geomonitoring_dropoff_postcard_trigger.txt:7
 msgid "We were unable to verify your address using your phone's location services. This may happen if you disable location or uninstall the company_name app. Address verification helps ensure that only residents living in {hood_short_name} can access the private site."
-msgstr "We were unable to verify your address using your phone's location services. This may happen if you disable location or uninstall the company_name app. Address"
-" verification helps ensure that only residents living in {hood_short_name} can access the private site."
+msgstr "We were unable to verify your address using your phone's location services. This may happen if you disable location or uninstall the company_name app."
+" Address verification helps ensure that only residents living in {hood_short_name} can access the private site."
 
 #: templates/company_name/emails/account/verification/geomonitoring_dropoff_postcard_trigger.html:60
 #: templates/company_name/emails/account/verification/geomonitoring_dropoff_postcard_trigger.txt:11
@@ -12593,8 +12595,8 @@ msgstr "If you can vouch for them, please verify them so that they can officiall
 
 #: templates/company_name/emails/account/verification/lead_verify_new_neighbors_request_converted.html:19
 msgid "As a reminder, only verified members in company_name {neighborhood_short_name} can access your website, which means that this unverified member cannot currently read any posts, view any member profiles or receive email updates from the neighborhood."
-msgstr "As a reminder, only verified members in company_name {neighborhood_short_name} can access your website, which means that this unverified member cannot currently"
-" read any posts, view any member profiles or receive email updates from the neighborhood."
+msgstr "As a reminder, only verified members in company_name {neighborhood_short_name} can access your website, which means that this unverified member cannot"
+" currently read any posts, view any member profiles or receive email updates from the neighborhood."
 
 #: templates/company_name/emails/account/verification/lead_verify_new_neighbors_request_converted.html:21
 msgid "There are {new_unverified_members_count} new unverified members in your neighborhood."
@@ -12690,8 +12692,8 @@ msgstr "Thank you for joining {hood_name}, the private social network for {hood_
 #: templates/company_name/emails/account/verification/verification_reminder_1_day_postcard_not_requested_converted.html:58
 #: templates/company_name/emails/account/verification/verification_reminder_1_day_postcard_not_requested_converted.txt:7
 msgid "We apologize if you had trouble completing our verification process. Address verification helps ensure that only residents living in {hood_short_name} can access company_name."
-msgstr "We apologize if you had trouble completing our verification process. Address verification helps ensure that only residents living in {hood_short_name} can"
-" access company_name."
+msgstr "We apologize if you had trouble completing our verification process. Address verification helps ensure that only residents living in {hood_short_name}"
+" can access company_name."
 
 #: templates/company_name/emails/account/verification/verification_reminder_1_day_postcard_not_requested_converted.html:60
 #: templates/company_name/emails/account/verification/verification_reminder_1_day_postcard_not_requested_converted.txt:11
@@ -12710,8 +12712,8 @@ msgstr "A postcard with your personalized verification code is on its way to you
 
 #: templates/company_name/emails/account/verification/verification_reminder_1_day_postcard_requested_converted.html:61
 msgid "A postcard with your personalized verification code is on its way to your home at {street_num} {route}. When the postcard arrives in 3-5 days, you can use the code to verify your address."
-msgstr "A postcard with your personalized verification code is on its way to your home at {street_num} {route}. When the postcard arrives in 3-5 days, you can use"
-" the code to verify your address."
+msgstr "A postcard with your personalized verification code is on its way to your home at {street_num} {route}. When the postcard arrives in 3-5 days, you can"
+" use the code to verify your address."
 
 #: templates/company_name/emails/account/verification/verification_reminder_1_day_postcard_requested_converted.html:126
 msgid "Enter postcard code here"
@@ -12731,8 +12733,8 @@ msgstr "{name}, your company_name verification postcard is on the way!"
 #: templates/company_name/emails/account/verification/verification_reminder_converted.html:55
 #: templates/company_name/emails/account/verification/verification_reminder_converted.txt:4
 msgid "Thank you for joining {hood_name}, the private network for {hood_short_name} residents! To obtain full access to the site, please verify your address. Address verification helps ensure that all {hood_name} members are {hood_short_name} residents."
-msgstr "Thank you for joining {hood_name}, the private network for {hood_short_name} residents! To obtain full access to the site, please verify your address. Address"
-" verification helps ensure that all {hood_name} members are {hood_short_name} residents."
+msgstr "Thank you for joining {hood_name}, the private network for {hood_short_name} residents! To obtain full access to the site, please verify your address."
+" Address verification helps ensure that all {hood_name} members are {hood_short_name} residents."
 
 #: templates/company_name/emails/account/verification/verification_reminder_5_day_converted.html:58
 msgid "We sent a postcard with a personalized code to you at {residence_street_num} {residence_route} on {date}. When you receive the postcard, please visit the site to verify your address using the code printed on the back."
@@ -12792,8 +12794,8 @@ msgstr "Verify your address!"
 #: templates/company_name/emails/account/verification/verification_reminder_trial_converted.html:21
 #: templates/company_name/emails/account/verification/verification_reminder_trial_converted.txt:4
 msgid "Now that {hood_name} is no longer in pilot mode, everyone on the website needs to have verified their address. This helps protect your privacy and the privacy of your neighbors, so everyone can feel comfortable sharing personal information and discussing local issues."
-msgstr "Now that {hood_name} is no longer in pilot mode, everyone on the website needs to have verified their address. This helps protect your privacy and the privacy"
-" of your neighbors, so everyone can feel comfortable sharing personal information and discussing local issues."
+msgstr "Now that {hood_name} is no longer in pilot mode, everyone on the website needs to have verified their address. This helps protect your privacy and the"
+" privacy of your neighbors, so everyone can feel comfortable sharing personal information and discussing local issues."
 
 #: templates/company_name/emails/account/verification/verification_reminder_trial_converted.html:22
 #: templates/company_name/emails/account/verification/verification_reminder_trial_converted.txt:8
@@ -12816,8 +12818,8 @@ msgstr "Rejoin your neighbors on {hood_name}"
 
 #: templates/company_name/emails/account/verification/verified_by_geo_fo_converted.html:14
 msgid "It was a pleasure meeting you and signing you up to join your neighbors on company_name {hood_name}. I want to thank you for signing up and personally welcome you to company_name."
-msgstr "It was a pleasure meeting you and signing you up to join your neighbors on company_name {hood_name}. I want to thank you for signing up and personally welcome"
-" you to company_name."
+msgstr "It was a pleasure meeting you and signing you up to join your neighbors on company_name {hood_name}. I want to thank you for signing up and personally"
+" welcome you to company_name."
 
 #: templates/company_name/emails/account/verification/verified_by_geo_fo_converted.html:16
 msgid "Many of your neighbors are already sharing useful advice, finding lost pets, and helping to curb suspicious activity in {hood_name}."
@@ -12939,8 +12941,8 @@ msgstr "Please <a style=\"{style_a}\" href=\"{contact_link}\">contact us</a> wit
 
 #: templates/company_name/emails/account/verification/verified_by_other_converted.txt:5
 msgid "Congrats! {name} verified their address on {hood_name}. Because they invited you, your address has been verified as well. You now have complete access to {hood_name}."
-msgstr "Congrats! {name} verified their address on {hood_name}. Because they invited you, your address has been verified as well. You now have complete access to"
-" {hood_name}."
+msgstr "Congrats! {name} verified their address on {hood_name}. Because they invited you, your address has been verified as well. You now have complete access"
+" to {hood_name}."
 
 #: templates/company_name/emails/account/verification/verified_by_other_converted.txt:15
 #: templates/company_name/emails/growth/pilot/site_launch_verified_converted.html:52
@@ -13013,8 +13015,8 @@ msgstr "{first_name}, you're almost done! To confirm your email, click below."
 
 #: templates/company_name/emails/account/verify_email_address_converted.html:18
 msgid "Confirming that you are the owner of {email_addr} will complete your company_name signup and give you full access to {hood_name}. This helps us ensure that {hood_name} is accessible only to residents."
-msgstr "Confirming that you are the owner of {email_addr} will complete your company_name signup and give you full access to {hood_name}. This helps us ensure that"
-" {hood_name} is accessible only to residents."
+msgstr "Confirming that you are the owner of {email_addr} will complete your company_name signup and give you full access to {hood_name}. This helps us ensure"
+" that {hood_name} is accessible only to residents."
 
 #: templates/company_name/emails/account/verify_email_address_converted.html:23
 msgid "Complete sign up"
@@ -13132,8 +13134,8 @@ msgstr "Here are our Community Guidelines ({community_guidelines_link}) on how t
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_converted_update.html:68
 msgid "Please note: because you joined an existing neighborhood on company_name, you are not eligible for an Amazon gift card at this time. For the chance to earn one, <a style=\"{style_a}\" href=\"{amazon_referral_link}\">invite friends and family</a>."
-msgstr "Please note: because you joined an existing neighborhood on company_name, you are not eligible for an Amazon gift card at this time. For the chance to earn"
-" one, <a style=\"{style_a}\" href=\"{amazon_referral_link}\">invite friends and family</a>."
+msgstr "Please note: because you joined an existing neighborhood on company_name, you are not eligible for an Amazon gift card at this time. For the chance to"
+" earn one, <a style=\"{style_a}\" href=\"{amazon_referral_link}\">invite friends and family</a>."
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted.html:15
 msgid "Welcome to company_name {name}, the private social network for {name} residents."
@@ -13146,8 +13148,8 @@ msgstr "You are the {num} neighbor to join company_name {name}. If your neighbor
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted.html:21
 msgid "You are the {num} neighbor to join the company_name pilot for {name}. Your neighborhood needs to reach {settings} verified members by {date} to become permanently available for you and your neighbors."
-msgstr "You are the {num} neighbor to join the company_name pilot for {name}. Your neighborhood needs to reach {settings} verified members by {date} to become permanently"
-" available for you and your neighbors."
+msgstr "You are the {num} neighbor to join the company_name pilot for {name}. Your neighborhood needs to reach {settings} verified members by {date} to become"
+" permanently available for you and your neighbors."
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted.html:24
 msgid "You are the {num} neighbor to join the company_name {name} pilot. Your neighborhood needs to reach {settings} verified member by {date} to become permanently available for you and your neighbors."
@@ -13207,14 +13209,14 @@ msgstr "Soon you'll start getting updates from your neighbors at {email}."
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted.txt:11
 msgid "You are the {resident_count} neighbor on company_name {hood_name}!  You can help launch your neighborhood by inviting any neighbors you know, or spend some time trying it out first."
-msgstr "You are the {resident_count} neighbor on company_name {hood_name}!  You can help launch your neighborhood by inviting any neighbors you know, or spend some"
-" time trying it out first."
+msgstr "You are the {resident_count} neighbor on company_name {hood_name}!  You can help launch your neighborhood by inviting any neighbors you know, or spend"
+" some time trying it out first."
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted.txt:12
 msgid "You are the {resident_count} neighbor on company_name {hood_name}, so now is a great time to try it out.  As soon as possible, please verify your address using the postcard that was mailed to you to ensure that you still have access when company_name {hood_name} launches.  Ensuring that all members are {hood_name} residents helps protect the privacy of your neighbors. "
 msgstr "You are the {resident_count} neighbor on company_name {hood_name}, so now is a great time to try it out.  As soon as possible, please verify your address"
-" using the postcard that was mailed to you to ensure that you still have access when company_name {hood_name} launches.  Ensuring that all members are {hood_name}"
-" residents helps protect the privacy of your neighbors. "
+" using the postcard that was mailed to you to ensure that you still have access when company_name {hood_name} launches.  Ensuring that all members are"
+" {hood_name} residents helps protect the privacy of your neighbors. "
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted.txt:16
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted_update.txt:16
@@ -13265,8 +13267,8 @@ msgstr "Thank you for being an important part of building a stronger, more conne
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted_update.html:65
 msgid "If you have any questions or feedback about the website, please see our <a style=\"{style}\" href=\"{link_1}\">help center</a> or <a style=\"{style}\" href=\"{link_2}\">contact us</a>."
-msgstr "If you have any questions or feedback about the website, please see our <a style=\"{style}\" href=\"{link_1}\">help center</a> or <a style=\"{style}\" href=\"{link_2}\">contact"
-" us</a>."
+msgstr "If you have any questions or feedback about the website, please see our <a style=\"{style}\" href=\"{link_1}\">help center</a> or <a style=\"{style}\""
+" href=\"{link_2}\">contact us</a>."
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted_update.html:67
 #: templates/company_name/emails/invitations/referral_invitations/referral_launched_invitee_converted_update.html:28
@@ -13276,12 +13278,13 @@ msgstr "— The company_name Team"
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted_update.txt:6
 msgid "Welcome to company_name {hood_name}, the private website for {hood_name} residents. Great neighborhoods are built though the efforts of residents like you!"
-msgstr "Welcome to company_name {hood_name}, the private website for {hood_name} residents. Great neighborhoods are built though the efforts of residents like you!"
+msgstr "Welcome to company_name {hood_name}, the private website for {hood_name} residents. Great neighborhoods are built though the efforts of residents like"
+" you!"
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted_update.txt:11
 msgid "You are the {resident_count} neighbor on company_name {hood_name}!  You can help launch the website to your neighborhood by inviting any neighbors you know, or spend some time trying it out first."
-msgstr "You are the {resident_count} neighbor on company_name {hood_name}!  You can help launch the website to your neighborhood by inviting any neighbors you know,"
-" or spend some time trying it out first."
+msgstr "You are the {resident_count} neighbor on company_name {hood_name}!  You can help launch the website to your neighborhood by inviting any neighbors you"
+" know, or spend some time trying it out first."
 
 #: templates/company_name/emails/account/welcome/company_name_welcome_trial_converted_update.txt:12
 msgid "You are the {resident_count} neighbor on company_name {hood_name}, so now is a great time to try out the website.  As soon as possible, please verify your address using the postcard that was mailed to you to ensure that you still have access when the website launches.  Ensuring that all website members are {hood_name} residents helps protect the privacy of your neighbors. "
@@ -13352,8 +13355,8 @@ msgstr "Dear {member_name}"
 
 #: templates/company_name/emails/building/building_prelaunch_converted.txt:15
 msgid "As part of the new building directory, you’ll have the option to hide or show your unit number to people in your building. If you wish, you can choose your address setting now, before we launch the new building feature."
-msgstr "As part of the new building directory, you’ll have the option to hide or show your unit number to people in your building. If you wish, you can choose your"
-" address setting now, before we launch the new building feature."
+msgstr "As part of the new building directory, you’ll have the option to hide or show your unit number to people in your building. If you wish, you can choose"
+" your address setting now, before we launch the new building feature."
 
 #: templates/company_name/emails/building/building_prelaunch_converted.txt:19
 msgid "It’s important to note that your address visibility to company_name members outside of your building will not change."
@@ -13600,8 +13603,8 @@ msgstr "Our team is reviewing your application, which is an important step to ma
 
 #: templates/company_name/emails/city/self_serve/applied.html:13
 msgid "In the meantime, you can <a href=\"{link}\">learn more</a> about how hundreds of other agencies across the U.S. are using company_name to connect with residents and improve the communities that they serve."
-msgstr "In the meantime, you can <a href=\"{link}\">learn more</a> about how hundreds of other agencies across the U.S. are using company_name to connect with residents"
-" and improve the communities that they serve."
+msgstr "In the meantime, you can <a href=\"{link}\">learn more</a> about how hundreds of other agencies across the U.S. are using company_name to connect with"
+" residents and improve the communities that they serve."
 
 #: templates/company_name/emails/city/self_serve/applied.txt:9
 msgid "In the meantime, you can learn more about how hundreds of other agencies across the U.S. are using company_name to connect with residents and improve the communities that they serve by visiting this link: {link}."
@@ -13716,8 +13719,8 @@ msgstr "The company_name account you requested for the {agency_name} is now read
 #: templates/company_name/emails/city/self_serve/launched_old.txt:7
 msgid "We recommend that a senior ranking member of your staff make the introductory post announcing your agency's partnership with company_name. If you are not the person making the introductory post on behalf of your agency, please invite the appropriate person using the 'Add staff members' link on the left hand side of the page."
 msgstr "We recommend that a senior ranking member of your staff make the introductory post announcing your agency's partnership with company_name. If you are not"
-" the person making the introductory post on behalf of your agency, please invite the appropriate person using the 'Add staff members' link on the left hand"
-" side of the page."
+" the person making the introductory post on behalf of your agency, please invite the appropriate person using the 'Add staff members' link on the left"
+" hand side of the page."
 
 #: templates/company_name/emails/city/self_serve/launched.html:13
 #: templates/company_name/emails/city/self_serve/launched.txt:9
@@ -13825,8 +13828,8 @@ msgstr "company_name {neighborhood_name} does not have to subscribe or \"opt-in\
 #: templates/company_name/emails/city/self_serve/leads_announcement.txt:9
 msgid "Below is a copy of the announcement that we will post on company_name {neighborhood_name} just prior to {agency_name}'s first post, that will notify all members about the upcoming communications on company_name. We hope that the posts will provide valuable information to you and your neighbors. Please feel free to contact us if you have any questions."
 msgstr "Below is a copy of the announcement that we will post on company_name {neighborhood_name} just prior to {agency_name}'s first post, that will notify all"
-" members about the upcoming communications on company_name. We hope that the posts will provide valuable information to you and your neighbors. Please feel"
-" free to contact us if you have any questions."
+" members about the upcoming communications on company_name. We hope that the posts will provide valuable information to you and your neighbors. Please"
+" feel free to contact us if you have any questions."
 
 #: templates/company_name/emails/city/self_serve/leads_announcement.html:21
 #: templates/company_name/emails/city/self_serve/leads_announcement.txt:11
@@ -13918,7 +13921,7 @@ msgstr "\"{reported_content_body}\""
 #: templates/company_name/emails/content_action/new_content_reports.txt:24
 #: templates/company_name/emails/content_action/your_content_was_reported.html:24
 msgid "Event: {reported_content_title}"
-msgstr "Event: {reported_content_title}"
+msgstr "Evenement: {reported_content_title}"
 
 #: templates/company_name/emails/content_action/new_content_reports.html:21
 #: templates/company_name/emails/content_action/new_content_reports.txt:25
@@ -13943,7 +13946,7 @@ msgstr "Description: {reported_content_description}"
 #: templates/company_name/emails/content_action/your_content_was_reported.html:31
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:36
 msgid "Event: {photo_event_title}"
-msgstr "Event: {photo_event_title}"
+msgstr "Evenement: {photo_event_title}"
 
 #: templates/company_name/emails/content_action/new_content_reports.html:28
 #: templates/company_name/emails/content_action/new_content_reports.txt:32
@@ -14041,8 +14044,8 @@ msgstr "A message you posted was reported by another company_name member as viol
 
 #: templates/company_name/emails/content_action/your_content_was_reported.html:73
 msgid "This report may simply indicate that another member has misinterpreted either your message or the Guidelines. Your neighborhood {leads_link} have been asked to review whether your message complies with the Guidelines.  Messages that violate the Guidelines will be removed."
-msgstr "This report may simply indicate that another member has misinterpreted either your message or the Guidelines. Your neighborhood {leads_link} have been asked"
-" to review whether your message complies with the Guidelines.  Messages that violate the Guidelines will be removed."
+msgstr "This report may simply indicate that another member has misinterpreted either your message or the Guidelines. Your neighborhood {leads_link} have been"
+" asked to review whether your message complies with the Guidelines.  Messages that violate the Guidelines will be removed."
 
 #: templates/company_name/emails/content_action/your_content_was_reported.html:75
 #: templates/company_name/emails/content_action/your_content_was_reported.txt:46
@@ -14087,7 +14090,7 @@ msgstr "Posted on {content_creation_date}"
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.txt:7
 #: templates/company_name/emails/flags/your_content_was_flagged_converted_en_GB.txt:7
 msgid "Event: {content_title}"
-msgstr "Event: {content_title}"
+msgstr "Evenement: {content_title}"
 
 #: templates/company_name/emails/content_action/your_content_was_reported.txt:8
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.txt:8
@@ -14117,7 +14120,7 @@ msgstr "Photo posted on {creation_date}"
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.txt:14
 #: templates/company_name/emails/flags/your_content_was_flagged_converted_en_GB.txt:14
 msgid "Event: {photo_event.title}"
-msgstr "Event: {photo_event.title}"
+msgstr "Evenement: {photo_event.title}"
 
 #: templates/company_name/emails/content_action/your_content_was_reported.txt:39
 msgid "The reasons for this report may include threatening someone’s safety, dealing in regulated goods and services, containing illegal content or activity or violating someone’s privacy."
@@ -15614,8 +15617,8 @@ msgstr "If you would like to contact your neighborhood Lead(s) for clarification
 
 #: templates/company_name/emails/flags/content_was_removed.html:63
 msgid "To learn more about what types of posts are appropriate on company_name, please see the <a href=\"{link1}\">Guidelines for Neighborly Behavior</a> and our <a href=\"{link2}\">Guidelines FAQ.</a>"
-msgstr "To learn more about what types of posts are appropriate on company_name, please see the <a href=\"{link1}\">Guidelines for Neighborly Behavior</a> and our"
-" <a href=\"{link2}\">Guidelines FAQ.</a>"
+msgstr "To learn more about what types of posts are appropriate on company_name, please see the <a href=\"{link1}\">Guidelines for Neighborly Behavior</a> and"
+" our <a href=\"{link2}\">Guidelines FAQ.</a>"
 
 #: templates/company_name/emails/flags/content_was_removed.html:66
 #: templates/company_name/emails/flags/content_was_removed.txt:46
@@ -15741,7 +15744,7 @@ msgstr "the following post as {reason_list}."
 #: templates/company_name/emails/flags/new_flags_converted.txt:32
 #: templates/company_name/emails/flags/new_flags_converted_en_GB.txt:32
 msgid "Event: {event_title}"
-msgstr "Event: {event_title}"
+msgstr "Evenement: {event_title}"
 
 #: templates/company_name/emails/flags/new_flags_converted.html:52
 #: templates/company_name/emails/flags/new_flags_converted.txt:33
@@ -15934,7 +15937,7 @@ msgstr "Posted on {flagged_date}"
 
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:29
 msgid "Event: {flagged_content_title}"
-msgstr "Event: {flagged_content_title}"
+msgstr "Evenement: {flagged_content_title}"
 
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:30
 msgid "Date and Time: {flagged_content_date}"
@@ -15964,8 +15967,8 @@ msgstr "Issue: Potentially discriminatory or racial profiling"
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:64
 msgid "company_name specifically prohibits racial profiling, as outlined in our <a style=\"{style}\" href=\"{help_link}\"/> company_name Guidelines FAQ</a>. To learn more, please read <a style=\"{style}\" href=\"{suspicious_activity_link}\">how to communicate suspicious activity to your neighbors</a> without making racial profiling assumptions."
 msgstr "company_name specifically prohibits racial profiling, as outlined in our <a style=\"{style}\" href=\"{help_link}\"/> company_name Guidelines FAQ</a>. To"
-" learn more, please read <a style=\"{style}\" href=\"{suspicious_activity_link}\">how to communicate suspicious activity to your neighbors</a> without making"
-" racial profiling assumptions."
+" learn more, please read <a style=\"{style}\" href=\"{suspicious_activity_link}\">how to communicate suspicious activity to your neighbors</a> without"
+" making racial profiling assumptions."
 
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:68
 msgid "If you believe your message adheres to our Guidelines, you can simply ignore this notification."
@@ -16030,8 +16033,8 @@ msgstr "If you believe that the message adheres to our Guidelines and was mistak
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:125
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.txt:44
 msgid "If you believe that your message adheres to our Guidelines and was mistakenly reported, no further action is required on your part, and you can ignore this message."
-msgstr "If you believe that your message adheres to our Guidelines and was mistakenly reported, no further action is required on your part, and you can ignore this"
-" message."
+msgstr "If you believe that your message adheres to our Guidelines and was mistakenly reported, no further action is required on your part, and you can ignore"
+" this message."
 
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:130
 msgid "If you would like to modify the {content_link} yourself, you can do so on the website or mobile app."
@@ -16046,8 +16049,8 @@ msgstr "However, if you believe that the message was not posted in error and was
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:136
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.txt:53
 msgid "However, if you believe that your message was not posted in error and was mistakenly reported, no further action is required on your part, and you can simply ignore this message."
-msgstr "However, if you believe that your message was not posted in error and was mistakenly reported, no further action is required on your part, and you can simply"
-" ignore this message."
+msgstr "However, if you believe that your message was not posted in error and was mistakenly reported, no further action is required on your part, and you can"
+" simply ignore this message."
 
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.html:143
 msgid "If you are unsure whether your message was appropriate for company_name {hood_shortname} and"
@@ -16088,8 +16091,8 @@ msgstr "If you would like to modify the content yourself, you can do so on the w
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.txt:59
 #: templates/company_name/emails/flags/your_content_was_flagged_converted_en_GB.txt:59
 msgid "If you are unsure whether your message was appropriate for company_name {hood_shortname} and you wish to contact your Leads for guidance or to provide them with additional background, click the “Message” button next to their name in the Leads Directory ({lead_dir_link}) to send them a private message."
-msgstr "If you are unsure whether your message was appropriate for company_name {hood_shortname} and you wish to contact your Leads for guidance or to provide them"
-" with additional background, click the “Message” button next to their name in the Leads Directory ({lead_dir_link}) to send them a private message."
+msgstr "If you are unsure whether your message was appropriate for company_name {hood_shortname} and you wish to contact your Leads for guidance or to provide"
+" them with additional background, click the “Message” button next to their name in the Leads Directory ({lead_dir_link}) to send them a private message."
 
 #: templates/company_name/emails/flags/your_content_was_flagged_converted.txt:62
 #: templates/company_name/emails/flags/your_content_was_flagged_converted_en_GB.txt:62
@@ -16205,8 +16208,8 @@ msgstr "Your request to join <a style=\"{style_a}\" href=\"{link1}\">{group_name
 
 #: templates/company_name/emails/groups/group_acceptance_converted.html:18
 msgid "{inviter_name} added you to the <a style=\"{style_a}\" href=\"{link1}\">{group_name}</a> group on {hood_name}, and your membership was approved by one of the group's moderators."
-msgstr "{inviter_name} added you to the <a style=\"{style_a}\" href=\"{link1}\">{group_name}</a> group on {hood_name}, and your membership was approved by one of"
-" the group's moderators."
+msgstr "{inviter_name} added you to the <a style=\"{style_a}\" href=\"{link1}\">{group_name}</a> group on {hood_name}, and your membership was approved by one"
+" of the group's moderators."
 
 #: templates/company_name/emails/groups/group_acceptance_converted.html:20
 msgid "{moderator_name} added you to the <a style=\"{style_a}\" href=\"{link1}\">{group_name}</a> group on {hood_name}."
@@ -16880,8 +16883,8 @@ msgstr[1] "{hood_long_name} now has {num} neighbors with verified addresses, so 
 #: templates/company_name/emails/growth/pilot/site_launch_unverified_converted.html:19
 #: templates/company_name/emails/growth/pilot/site_launch_unverified_converted.txt:11
 msgid "In order to use {hood_long_name} going forward, you need to verify your address. Address verification helps ensure that every member of the website is a {hood_name} resident so members can feel comfortable sharing contact information with neighbors and discussing neighborhood topics."
-msgstr "In order to use {hood_long_name} going forward, you need to verify your address. Address verification helps ensure that every member of the website is a"
-" {hood_name} resident so members can feel comfortable sharing contact information with neighbors and discussing neighborhood topics."
+msgstr "In order to use {hood_long_name} going forward, you need to verify your address. Address verification helps ensure that every member of the website is"
+" a {hood_name} resident so members can feel comfortable sharing contact information with neighbors and discussing neighborhood topics."
 
 #: templates/company_name/emails/growth/pilot/site_launch_unverified_converted.html:22
 #: templates/company_name/emails/growth/pilot/site_launch_unverified_converted.txt:15
@@ -16918,8 +16921,8 @@ msgstr[1] "Great news! {num_joined} neighbors have verified their addresses so {
 #: templates/company_name/emails/growth/pilot/site_launch_verified_converted.html:27
 #: templates/company_name/emails/growth/pilot/site_launch_verified_converted.txt:18
 msgid "This means that you and your other verified neighbors now have permanent access to the website.  Anyone who hasn't verified their address will need to do so before accessing the website again."
-msgstr "This means that you and your other verified neighbors now have permanent access to the website.  Anyone who hasn't verified their address will need to do"
-" so before accessing the website again."
+msgstr "This means that you and your other verified neighbors now have permanent access to the website.  Anyone who hasn't verified their address will need to"
+" do so before accessing the website again."
 
 #: templates/company_name/emails/growth/pilot/site_launch_verified_converted.html:31
 #: templates/company_name/emails/growth/pilot/site_launch_verified_converted.txt:23
@@ -16983,8 +16986,8 @@ msgstr "Click here to sign in with your existing account."
 
 #: templates/company_name/emails/growth/pilot/site_reopened_converted.html:33
 msgid "You're automatically a member of {neighborhood_name} because your address is within the new neighborhood boundary. If you have questions or prefer not to be a member of {neighborhood_name}, <a style=\"{style_a}\" href=\"{contact_us_link}\">please contact us.</a>"
-msgstr "You're automatically a member of {neighborhood_name} because your address is within the new neighborhood boundary. If you have questions or prefer not to"
-" be a member of {neighborhood_name}, <a style=\"{style_a}\" href=\"{contact_us_link}\">please contact us.</a>"
+msgstr "You're automatically a member of {neighborhood_name} because your address is within the new neighborhood boundary. If you have questions or prefer not"
+" to be a member of {neighborhood_name}, <a style=\"{style_a}\" href=\"{contact_us_link}\">please contact us.</a>"
 
 #: templates/company_name/emails/growth/pilot/site_reopened_converted.txt:9
 msgid "Good news! Your neighbor, {name}{route}, has started a new company_name website for your neighborhood."
@@ -16997,8 +17000,8 @@ msgstr "The neighborhood name or boundary may have changed since your earlier co
 
 #: templates/company_name/emails/growth/pilot/site_reopened_converted.txt:19
 msgid "You're automatically a member of {neighborhood_name} because your address is within the new neighborhood boundary. If you have questions or prefer not to be a member of {neighborhood_name}, please contact us:"
-msgstr "You're automatically a member of {neighborhood_name} because your address is within the new neighborhood boundary. If you have questions or prefer not to"
-" be a member of {neighborhood_name}, please contact us:"
+msgstr "You're automatically a member of {neighborhood_name} because your address is within the new neighborhood boundary. If you have questions or prefer not"
+" to be a member of {neighborhood_name}, please contact us:"
 
 #: templates/company_name/emails/growth/pilot/trial_launch_reminder_first_converted.html:12
 msgid "Hi {email},"
@@ -17191,8 +17194,8 @@ msgstr[1] "Remember, it takes a minimum of {minimum} verified members to launch 
 
 #: templates/company_name/emails/growth/pilot/trial_launch_reminder_second_converted.txt:25
 msgid "* As a verified member of {hood_name}, you can help verify others who live in the neighborhood. If you can vouch for them, please contact us with your neighbors' names and email addresses here:"
-msgstr "* As a verified member of {hood_name}, you can help verify others who live in the neighborhood. If you can vouch for them, please contact us with your neighbors'"
-" names and email addresses here:"
+msgstr "* As a verified member of {hood_name}, you can help verify others who live in the neighborhood. If you can vouch for them, please contact us with your"
+" neighbors' names and email addresses here:"
 
 #: templates/company_name/emails/growth/pilot/trial_launch_reminder_second_converted.txt:31
 msgid "Here is the current list of unverified members in {hood_name}:"
@@ -17248,8 +17251,8 @@ msgstr "It's free and only takes a minute"
 
 #: templates/company_name/emails/invitations/city_invitations/citizen_converted_invitation.html:53
 msgid "The {agency_name} has partnered with company_name, the private social network for neighborhoods, to make sure residents like you can receive important updates. {inviter_first_name} thinks you'd benefit from joining."
-msgstr "The {agency_name} has partnered with company_name, the private social network for neighborhoods, to make sure residents like you can receive important updates."
-" {inviter_first_name} thinks you'd benefit from joining."
+msgstr "The {agency_name} has partnered with company_name, the private social network for neighborhoods, to make sure residents like you can receive important"
+" updates. {inviter_first_name} thinks you'd benefit from joining."
 
 #: templates/company_name/emails/invitations/city_invitations/citizen_converted_invitation.html:56
 msgid "More than 54,000 U.S. neighborhoods use company_name to share crime reports, recommendations, items for sale, community events and more."
@@ -17402,8 +17405,8 @@ msgstr "I wanted to extend a warm welcome from the company_name for Public Agenc
 
 #: templates/company_name/emails/invitations/city_invitations/self_serve_invitation_converted.html:17
 msgid "You can now complete your profile by following this <a style=\"{style}\" href=\"{link}\">link</a>. After you create your profile, you will have access to your agency's company_name homepage."
-msgstr "You can now complete your profile by following this <a style=\"{style}\" href=\"{link}\">link</a>. After you create your profile, you will have access to"
-" your agency's company_name homepage."
+msgstr "You can now complete your profile by following this <a style=\"{style}\" href=\"{link}\">link</a>. After you create your profile, you will have access"
+" to your agency's company_name homepage."
 
 #: templates/company_name/emails/invitations/city_invitations/self_serve_invitation_converted.html:19
 #: templates/company_name/emails/invitations/city_invitations/self_serve_invitation_converted.txt:11
@@ -17593,8 +17596,8 @@ msgstr "Hi {inviter_first_name},"
 
 #: templates/company_name/emails/invitations/generic_invitations/invitation_accepted_outsidehood_converted.txt:4
 msgid "Congrats! {invitee_name} just accepted your invitation to join company_name in their own neighborhood. That's the {num_accepted_ordinal} person you've helped bring to company_name. Thanks for helping to build communities nationwide!"
-msgstr "Congrats! {invitee_name} just accepted your invitation to join company_name in their own neighborhood. That's the {num_accepted_ordinal} person you've helped"
-" bring to company_name. Thanks for helping to build communities nationwide!"
+msgstr "Congrats! {invitee_name} just accepted your invitation to join company_name in their own neighborhood. That's the {num_accepted_ordinal} person you've"
+" helped bring to company_name. Thanks for helping to build communities nationwide!"
 
 #: templates/company_name/emails/invitations/generic_invitations/invitation_accepted_outsidehood_converted.txt:13
 msgid "As you invite more people and they join company_name, the number on your badge will update to show your accepted invitations. Learn more:"
@@ -17682,7 +17685,8 @@ msgstr "{inviter_name} wants you to join company_name."
 #: templates/company_name/emails/invitations/themed_invitations/invitation_election.html:43
 msgid "Neighborhoods across the country are using company_name to share recommendations, safety tips, local events and simply to get to know one another better. "
 msgid_plural "More than {hood_count} neighborhoods across the country are using company_name to share recommendations, safety tips, local events and simply to get to know one another better. "
-msgstr[0] "Neighborhoods across the country are using company_name to share recommendations, safety tips, local events and simply to get to know one another better. "
+msgstr[0] "Neighborhoods across the country are using company_name to share recommendations, safety tips, local events and simply to get to know one another better."
+" "
 msgstr[1] "More than {hood_count} neighborhoods across the country are using company_name to share recommendations, safety tips, local events and simply to get to"
 " know one another better. "
 
@@ -17697,15 +17701,15 @@ msgstr "{inviter_first_name}'s personal note"
 
 #: templates/company_name/emails/invitations/generic_invitations/invitation_converted.html:81
 msgid "My neighborhood is using a private online network called company_name {hood_name}. On company_name, neighbors share community events, recommendations, items for sale, crime reports, ideas about how to improve our neighborhood and more. I think you and your neighborhood could benefit too."
-msgstr "My neighborhood is using a private online network called company_name {hood_name}. On company_name, neighbors share community events, recommendations, items"
-" for sale, crime reports, ideas about how to improve our neighborhood and more. I think you and your neighborhood could benefit too."
+msgstr "My neighborhood is using a private online network called company_name {hood_name}. On company_name, neighbors share community events, recommendations,"
+" items for sale, crime reports, ideas about how to improve our neighborhood and more. I think you and your neighborhood could benefit too."
 
 #: templates/company_name/emails/invitations/generic_invitations/invitation_converted.html:99
 #: templates/company_name/emails/invitations/referral_invitations/referral_new_converted_update.html:77
 #: templates/company_name/emails/invitations/themed_invitations/invitation_election.html:52
 msgid "This message was sent by company_name, <a href=\"#footer_address\" id=\"footer_address\" style=\"{style}\">{address}</a>, and promotes a membership in a free social network for <a href=\"#footer_email\" id=\"footer_email\" style=\"{style}\">{email_name}'s</a> neighborhood."
-msgstr "This message was sent by company_name, <a href=\"#footer_address\" id=\"footer_address\" style=\"{style}\">{address}</a>, and promotes a membership in a"
-" free social network for <a href=\"#footer_email\" id=\"footer_email\" style=\"{style}\">{email_name}'s</a> neighborhood."
+msgstr "This message was sent by company_name, <a href=\"#footer_address\" id=\"footer_address\" style=\"{style}\">{address}</a>, and promotes a membership in"
+" a free social network for <a href=\"#footer_email\" id=\"footer_email\" style=\"{style}\">{email_name}'s</a> neighborhood."
 
 #: templates/company_name/emails/invitations/generic_invitations/invitation_converted.txt:5
 msgid "{inviter_name} invites you to join {num} of your {short_name} neighbor on company_name. company_name is a free and private social network that your neighbors are using."
@@ -18393,8 +18397,8 @@ msgstr "Great news--{invitee_canonical_name} accepted your invitation and joined
 #: templates/company_name/emails/invitations/referral_invitations/referral_joined_existing_converted.txt:9
 #: templates/company_name/emails/invitations/referral_invitations/referral_joined_existing_converted_update.txt:9
 msgid "Since {invitee_first_name} joined an existing company_name neighborhood, you're not eligible to receive {reward} for this invitation. However, you can still refer other friends and qualify for {reward}."
-msgstr "Since {invitee_first_name} joined an existing company_name neighborhood, you're not eligible to receive {reward} for this invitation. However, you can still"
-" refer other friends and qualify for {reward}."
+msgstr "Since {invitee_first_name} joined an existing company_name neighborhood, you're not eligible to receive {reward} for this invitation. However, you can"
+" still refer other friends and qualify for {reward}."
 
 #: templates/company_name/emails/invitations/referral_invitations/referral_joined_existing_converted.txt:13
 #: templates/company_name/emails/invitations/referral_invitations/referral_joined_existing_converted_update.txt:13
@@ -18548,8 +18552,8 @@ msgstr "{inviter_first_name} says:"
 
 #: templates/company_name/emails/invitations/referral_invitations/referral_new_converted.txt:20
 msgid "company_name is a private social network for you and your neighbors--and only you and your neighbors--to talk online and make all of your lives better in the real world. And it's free."
-msgstr "company_name is a private social network for you and your neighbors--and only you and your neighbors--to talk online and make all of your lives better in"
-" the real world. And it's free."
+msgstr "company_name is a private social network for you and your neighbors--and only you and your neighbors--to talk online and make all of your lives better"
+" in the real world. And it's free."
 
 #: templates/company_name/emails/invitations/referral_invitations/referral_new_converted_subject.txt:1
 #: templates/company_name/emails/invitations/referral_invitations/referral_new_converted_update_subject.txt:1
@@ -18822,8 +18826,8 @@ msgstr "Thanks for being a good neighbor,"
 
 #: templates/company_name/emails/recommendations/business_recommendation_added.txt:5
 msgid "Thanks for mentioning {page_name}! To make it easier for neighbors to find, we've tagged your comment so it appears on the page ({page_url}) and added you to the list of neighbors who recommend this business."
-msgstr "Thanks for mentioning {page_name}! To make it easier for neighbors to find, we've tagged your comment so it appears on the page ({page_url}) and added you"
-" to the list of neighbors who recommend this business."
+msgstr "Thanks for mentioning {page_name}! To make it easier for neighbors to find, we've tagged your comment so it appears on the page ({page_url}) and added"
+" you to the list of neighbors who recommend this business."
 
 #: templates/company_name/emails/recommendations/business_recommendation_added.txt:6
 msgid "If we've made an error, click here ({page_url}?unsupport=true) to remove yourself from the list of recommenders. Please see our help articles ({help_article_url}) for any questions about tagging and recommending."
@@ -18976,8 +18980,8 @@ msgstr "{hood}: Thanks for inviting your neighbors"
 
 #: templates/company_name/fm_postcard_blast.html:115
 msgid "company_name will print and mail postcards on your behalf to your neighbors. The postcards have unique codes printed on them that allow your neighbors to join {hood}."
-msgstr "company_name will print and mail postcards on your behalf to your neighbors. The postcards have unique codes printed on them that allow your neighbors to"
-" join {hood}."
+msgstr "company_name will print and mail postcards on your behalf to your neighbors. The postcards have unique codes printed on them that allow your neighbors"
+" to join {hood}."
 
 #: templates/company_name/invitation_flyers.html:23
 msgid "{hood}: Printable invitation gallery"
@@ -19213,8 +19217,8 @@ msgstr "{city} Events & Things to Do"
 #: templates/company_namev2/events/logged_out_calendar.html:18
 #: templates/pin_map/seo/base.html:18
 msgid "Looking for {category_title} shared by {city} neighbors? Find all {category_title} happening in {city} neigborhood. Garage sales • Classes • Workshops • Local performances • Community meetings • Open houses • Fundraisers • More. company_name is the free private social network for your neighborhood community."
-msgstr "Looking for {category_title} shared by {city} neighbors? Find all {category_title} happening in {city} neigborhood. Garage sales • Classes • Workshops •"
-" Local performances • Community meetings • Open houses • Fundraisers • More. company_name is the free private social network for your neighborhood community."
+msgstr "Looking for {category_title} shared by {city} neighbors? Find all {category_title} happening in {city} neigborhood. Garage sales • Classes • Workshops"
+" • Local performances • Community meetings • Open houses • Fundraisers • More. company_name is the free private social network for your neighborhood community."
 
 #: templates/company_namev2/events/logged_out_calendar.html:20
 #: templates/pin_map/seo/base.html:20
@@ -19708,8 +19712,8 @@ msgid "View {post_count} update from {page_name} on company_name, the private so
 msgid_plural "View {post_count} updates from {page_name} on company_name, the private social network for your local community. Visit our page to see the latest news and information."
 msgstr[0] "View {post_count} update from {page_name} on company_name, the private social network for your local community. Visit our page to see the latest news and"
 " information."
-msgstr[1] "View {post_count} updates from {page_name} on company_name, the private social network for your local community. Visit our page to see the latest news and"
-" information."
+msgstr[1] "View {post_count} updates from {page_name} on company_name, the private social network for your local community. Visit our page to see the latest news"
+" and information."
 
 #: templates/pages/municipal/page_logged_out.html:38
 msgid "{page_name} - {post_count} {agency_keyword} update | company_name"
