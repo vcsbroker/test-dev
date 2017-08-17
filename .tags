@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+locales	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^    "locales" : [$/;"	function	line:2
+smartling	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^            "smartling"   : "zh-CN",$/;"	function	line:4
+application	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^            "application" : "zh_Hans"$/;"	function	line:5
+smartling	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^            "smartling"   : "nl-NL",$/;"	function	line:8
+application	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^            "application" : "nl_NL"$/;"	function	line:9
+resourceSets	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^    "resourceSets": [$/;"	function	line:12
+pathRegex	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^            "pathRegex"                 : "messages\/(?<path>.*)\\\\.properties",$/;"	function	line:14
+translationPathExpression	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^            "translationPathExpression" : "\/translated\/${path}_${locale}.${originalFile.extension}",$/;"	function	line:15
+type	/Users/dstudinskiy/Projects/repo-github-test-dev/smartling-config.json	/^            "type"                      : "javaProperties"$/;"	function	line:16
