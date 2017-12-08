@@ -11,7 +11,7 @@
   ],
   "resourceSets": [
     {
-      "pathRegex": ".*src.*\\/en\\.json",
+      "pathRegex": "src\\/.*_en\\.json",
       "translationPathExpression": "${originalFile.path}${originalFile.baseName.replaceAll('en$', locale)}.${originalFile.extension}",
       "translationCommitMessage": "Translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}",
       "type": "json",
