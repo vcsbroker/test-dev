@@ -1,4 +1,4 @@
 test-dev
 ========
 
-repo-connector dev testing repository 
+repo-connector dev testing repository
