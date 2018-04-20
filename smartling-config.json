@@ -11,11 +11,14 @@
   ],
   "resourceSets": [
     {
-      "pathRegex": ".*src.*\\/en\\.json",
-      "translationPathExpression": "${originalFile.path}${originalFile.baseName.replaceAll('en$', locale)}.${originalFile.extension}",
+      "pathRegex": ".*src.*_lang\\.json",
+      "translationPathExpression": "/translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
       "translationCommitMessage": "Translate ${originalFile.name} to ${locale}\n${translatedFile.fullName}",
       "type": "json",
-      "authorizeContent": true
+      "authorizeContent": true,
+      "smartlingDirectives"       : [
+                 "smartling.placeholder_format_custom = (%([0-9][$])*s)|(\\%\\{[^\\}\\{]+?\\})|(##[^#]+?##)|(__[^_]+?__)|(\\$\\{[^\\}\\{]+?\\})|(\\{\\{[^\\}\\{]+?\\}\\})|((?<!\\{)\\{[^\\}\\{]+?\\}(?!\\}))"
+            ],
     }
   ]
 }
