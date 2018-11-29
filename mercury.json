@@ -1,0 +1,11 @@
+{
+    "smartlingProjectId": "d15d462e4",
+    "translations": [{
+        "input": {
+            "src": ["messages/*.properties", "!messages/test.properties"]
+        },
+        "output": {
+            "dest": "translated/${locale}/${filename}"
+        }
+    }]
+}
