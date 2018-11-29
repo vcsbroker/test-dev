@@ -1,5 +1,5 @@
 {
-    "smartlingProjectId": "8999a0e9c",
+    "smartlingProjectId": "d15d462e4",
     "translations": [{
         "input": {
             "src": ["messages/*.properties", "!messages/test.properties"]
