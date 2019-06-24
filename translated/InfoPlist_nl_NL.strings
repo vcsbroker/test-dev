@@ -1,0 +1,8 @@
+NSCameraUsageDescription= "FedEx needs access to your camera in order to scan a barcode";
+NSLocationWhenInUseUsageDescription = "We will use your location to show you nearby FedEx locations";
+
+// TITLES FOR 3D TOUCH MENU
+TRACK_A_SHIPMENT = "Track a Shipment";
+GET_RATES = "Get Rates";
+FIND_A_LOCATION = "Find a Location";
+SCAN_BARCODE = "Scan Barcode";
