@@ -6,7 +6,7 @@
         },
         {
             "smartling"   : "nl-NL",
-            "application" : "nl"
+            "application" : "nl-Test"
         }
     ],
     "resourceSets": [
