@@ -12,7 +12,7 @@
     "resourceSets": [
         {
             "pathRegex"                 : "messages/icu-example.json",
-            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
+            "translationPathExpression" : "/translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
             "type"                      : "json",
             "smartlingDirectives"       : [
                  "smartling.string_format = icu"
