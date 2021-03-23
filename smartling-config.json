@@ -1,19 +1,22 @@
 {
     "locales" : [
         {
-            "smartling"   : "zh-CN",
-            "application" : "zh_Hans"
+            "smartling"   : "fr-FR",
+            "application" : "fr-FR"
         },
         {
-            "smartling"   : "nl-NL",
-            "application" : "nl_NL"
+            "smartling"   : "de-DE",
+            "application" : "de-DE"
         }
     ],
     "resourceSets": [
         {
-            "pathRegex"                 : "messages/(?<path>.*)\\.properties",
+            "pathRegex"                 : "messages/icu-example.json",
             "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
-            "type"                      : "javaProperties"
+            "type"                      : "json",
+            "smartlingDirectives"       : [
+                 "smartling.string_format = icu"
+            ],
         }
     ]
 }

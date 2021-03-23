@@ -1,0 +1,11 @@
+{
+  "AtocTicketRestrictionsModal.modalHeader": "Terms & Conditions",
+  "ItinerarySummary.tripReserved": "Tickets & seats locked in basket until {date}",
+  "Checkout.expiredTripsBasket": "{journeys, plural, one {There is an expired trip in the basket.} other {There are expired trips on the basket.}}",
+  "Checkout.adult": "{adults, plural, one {adult} other {adults}}",
+  "Checkout.youth": "{youths, plural, one {youth} other {youths}}",
+  "Checkout.senior": "{seniors, plural, one {senior} other {seniors}}",
+  "Checkout.trips": "{tripLength}x Trips",
+  "Checkout.fromTo": "From <b>{origin}</b> to <b>{destination}</b>",
+  "PassengerDetails.deliveryOptions": "Passenger details & delivery options"
+}
