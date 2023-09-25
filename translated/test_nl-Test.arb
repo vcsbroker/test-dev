@@ -1,0 +1,42 @@
+{
+  "@@locale" : "nl-NL",
+  "appName" : "Demo app",
+  "pageLoginUsername" : "Je gebruikersnaam",
+  "@pageLoginUsername" : {
+  },
+  "pageLoginPassword" : "Je wachtwoord",
+  "@pageLoginPassword" : {
+  },
+  "pageHomeTitle" : "Welkom {firstName}",
+  "@pageHomeTitle" : {
+    "description" : "Welcome message on the Home screen",
+    "placeholders" : {
+      "firstName" : {
+      }
+    }
+  },
+  "pageHomeInboxCount" : "{count, plural, =0 {Je hebt geen nieuwe berichten} one {Je hebt 1 nieuw bericht} other {Je hebt 1 nieuw bericht}}",
+  "@pageHomeInboxCount" : {
+    "description" : "New messages count on the Home screen",
+    "placeholders" : {
+      "count" : {
+      }
+    }
+  },
+  "pageHomeBirthday" : "{sex, select, male {Zijn verjaardag} female {Haar verjaardag} other {Hun verjaardag}}",
+  "@pageHomeBirthday" : {
+    "description" : "Birthday message on the Home screen",
+    "placeholders" : {
+      "sex" : {
+      }
+    }
+  },
+  "commonVehicleType" : "{vehicleType, select, sedan {Sedan} cabriolet {Cabriolet met stevig dak} truck {Vrachtwagen met 16 wielen} other {Ander}}",
+  "@commonVehicleType" : {
+    "description" : "Vehicle type",
+    "placeholders" : {
+      "vehicleType" : {
+      }
+    }
+  }
+}
