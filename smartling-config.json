@@ -14,6 +14,11 @@
             "pathRegex"                 : "messages/(?<path>.*)\\.properties",
             "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
             "type"                      : "javaProperties"
-        }
+        },
+        {
+            "pathRegex"                 : "messages/(?<path>.*)\\.arb",
+            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
+            "type"                      : "arb"
+        },
     ]
 }
